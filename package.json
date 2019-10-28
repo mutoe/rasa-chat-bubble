@@ -19,7 +19,7 @@
     "rasa"
   ],
   "scripts": {
-    "build": "webpack",
+    "build": "webpack --mode=production",
     "serve": "webpack --hot",
     "watch": "webpack --watch",
     "test": "cypress open"
