@@ -2,6 +2,7 @@
   <dictionary name="rasa-chat-bubble">
     <words>
       <w>chatbot</w>
+      <w>rasa</w>
     </words>
   </dictionary>
 </component>

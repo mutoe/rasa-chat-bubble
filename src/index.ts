@@ -12,9 +12,9 @@ declare global {
 const uuid = +new Date()
 const rasaHost = 'http://localhost:5005'
 
-const ajContainer = createDom('div', { class: 'ask-jamie-container' })
+const ajContainer = createDom('div', { class: 'rasa-chat-container' })
 const bubbleContainer = createDom('div', { id: 'chat' })
-const chatButton = createDom('button', { class: 'chat-button', text: 'Ask Jamie' })
+const chatButton = createDom('button', { class: 'chat-button', text: 'Rasa chatbot' })
 chatButton.addEventListener('click', () => {
   bubbleContainer.classList.toggle('active')
 })
@@ -69,7 +69,7 @@ interface Convo {
 
 const convo: Convo = {
   ice: {
-    says: [ 'Hi, I\'m Jamie.', 'What can I help you?' ],
+    says: [ 'Hi, I\'m Rasa chatbot.', 'What can I help you?' ],
   },
 }
 
